@@ -8,12 +8,12 @@ var supe;
 var bg;
 var ground;
 var bs1;
-var song;
+
 var box,box1,box2,box3,box4,box5,box6,box7,box8,box9,box10,box11,box12,box13,box14,box15,box16,box17,box18,box19,box20,box21;
 function preload() {
 //preload the images here
 bg= loadImage("sky.jpg")
-song= loadSound("Serhat Durmus - Hislerim (ft (mp3cut.net).mp3")
+
 }
 
 function setup() {
@@ -87,6 +87,6 @@ function draw() {
   box19.display();
   box20.display();
   box21.display();
-  song.play();
+  
 }
 
